@@ -1,0 +1,139 @@
+* {
+    list-style: none;
+    padding: 0px;
+}
+.global {
+    height: 100%;
+    width: 100%;
+}
+.top{
+    margin-top: 10px;
+    text-align: center;
+    height: 35px;
+    width: 100%;
+}
+.top ul li {
+    background: rgba(12, 6, 7, 0.77);
+    margin-top: 1px;
+    display: inline-block;
+    border-radius: 5px ;
+    border: 0px;
+}
+.top ul li a {
+    padding: 1px 9px;
+    color: green;
+    font-size: 150%;
+    text-shadow: 1px 1px 1px white;
+}
+.top ul li  :hover {
+    color: white;
+    transition: .3s ease-in-out;
+}
+#registration {
+    font-size: 135%;
+    color: green;
+    text-shadow: 1px 1px 2px white;
+    background-color: rgba(12, 6, 7, 0.77);
+    border: 0px;
+    border-radius: 11px;
+    display: inline-block;
+    padding: 8px;
+}
+#reg_data{
+    font-size: 90%;
+    text-align: left;
+    color: green;
+    line-height: 100px;
+    display: inline-block;
+    border: 0px;
+    border-radius: 11px;
+    background-color: rgba(37, 19, 20, 0.15);
+    padding: 8px;
+}
+#date {
+    border: 0px;
+    border-radius: 5px;
+}
+#time{
+    border: 0px;
+    border-radius: 5px;
+}
+#number {
+    border: 0px;
+    border-radius: 5px;
+}
+#name {
+    border: 0px;
+    border-radius: 5px;
+}
+#tel {
+    border: 0px;
+    border-radius: 5px;
+}
+#button {
+    border: 0px;
+    border-radius: 5px;
+    background-color: darkgreen;
+    padding: 4px;
+    font-weight: bolder;
+    cursor: pointer;
+    opacity: .9;
+}
+.center{
+    text-align: center;
+}
+.bottom {
+    text-align: center;
+}
+#text {
+    font-size: 135%;
+    color: green;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+    background-color: rgba(12, 6, 7, 0.77);
+    border: 0px solid #0e391c;
+    border-radius: 11px;
+    display: inline-block;
+    padding: 8px;
+}
+.price{
+    text-align: center;
+    position: relative;
+    color: #45830d;
+    font-size: 120%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    background-color: rgba(12, 6, 7, 0.77);
+    border-radius: 15px;
+}
+#contact{
+    text-align: center;
+    color: white;
+}
+#add_info{
+    font-size: 11px;
+    text-align: left;
+    color: white;
+}
+body{
+    font: 1em 'PT Sans',Arial,Tahoma,Verdana;
+    color: black;
+    background: url("images/back_top.jpg") no-repeat;
+    background-size: cover;
+}
+a:link{
+    font-size:12px; color: #000000;
+    text-decoration:none;
+}
+a:visited{
+    font-size:12px; color: #000000;
+    text-decoration:none;
+}
+a:hover{
+    font-size:12px; color: #000000;
+    text-decoration:none;
+}
+#mail {
+    color: white;
+}
