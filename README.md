@@ -1,1 +1,0 @@
-# UIcourse_lecture1
