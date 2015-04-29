@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paintball Club A.B.C.</title>
+    <meta charset="UTF-8">
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+<div class="global">
+    <div class="top">
+        <ul>
+            <li><a href="#menu">Головна</a></li>
+            <li><a href="#registration">Замовлення</a></li>
+            <li><a href="#text">Ціни</a></li>
+            <li><a href="#contact">Контакти</a></li>
+            <li><a href="">Про клуб</a></li>
+        </ul>
+    </div>
+    <div class="center">
+        <p id="registration"><b>Замовити</b></p>
+        <form class="forms">
+            <p id="reg_data">
+                <b><em>Виберіть дату→</em>   <input id="date" type="date" name="date"><br>
+                <em>Виберіть час→</em>    <input id="time" type="time" name="time"><br>
+                <em>Вкажіть кількість гравців→</em>   <input id="number" type="number" min="8" max="30" name="max.players"><br>
+                <em>Вкажіть Ваше Ім'я→</em>   <input id="name" type="text" name="name"><br>
+                <em>Вкажіть Ваш контактний телефон→</em></b>  <input id="tel" type="tel" maxlength="12" name="tel.number"><br>
+                <input id="button" type="submit" alt="Подати заявку">
+            </p>
+        </form>
+        <p id="text"><b>Таблиця вартості</b></p>
+        <table class="price" border="0">
+            <tr>
+                <td><b>Тип</b></td>
+                <td><b>Маркер</b></td>
+                <td><b>Кулі</b></td>
+                <td><b>Форма</b></td>
+                <td><b>Вартість</b></td>
+            </tr>
+            <tr>
+                <td><b>Basic</b></td>
+                <td>+</td>
+                <td>+</td>
+                <td>+</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td><b>Medium</b></td>
+                <td>+</td>
+                <td>+</td>
+                <td>+</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td><b>Pro</b></td>
+                <td>-</td>
+                <td>+</td>
+                <td>-</td>
+                <td>*договірна</td>
+            </tr>
+        </table>
+            <p id="add_info"><em><b>* - вартість 100 куль = 50грн., 200 куль = 100 грн., 2000 куль = 950грн</b></em>.</p>
+    </div>
+    <div class="bottom">
+        <p id="contact">Контакти:<br>
+            Телефон - 123-456-789<br>
+            Email - <a id="mail" href="mailto:info@abc_paintball.ua">info@abc_paintball.ua</a><br>
+        </p>
+    </div>
+</div>
+</body>
+</html>
